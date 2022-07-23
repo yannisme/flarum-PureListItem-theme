@@ -31,10 +31,7 @@ composer remove yannisme/purelistitemtheme
 - [Github](https://github.com/yannisme/flarum-PureListItem-theme)
 - [Packagist](https://packagist.org/packages/yannisme/purelistitemtheme)
 - [Discuss](https://discuss.flarum.org.cn/d/3833)
-
-
-
-**[click2see](https://yannisme.com/)**
+- **[click2see](https://yannisme.com/)**
 
 ![image.png](https://s2.loli.net/2022/07/23/qAiO9H4NoX3mr7E.png)
 
