@@ -1,8 +1,7 @@
 # PureListItemTheme
+![License](https://img.shields.io/github/license/yannisme/flarum-PureListItem-theme) [![Latest Stable Version](https://img.shields.io/packagist/v/yannisme/purelistitemtheme.svg)](https://packagist.org/packages/yannisme/purelistitemtheme) [![Total Downloads](https://img.shields.io/packagist/dt/yannisme/purelistitemtheme.svg)](https://packagist.org/packages/yannisme/purelistitemtheme)
 
-![License](https://img.shields.io/badge/license-CECILL-B-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/yannisme/purelistitemtheme.svg)](https://packagist.org/packages/yannisme/purelistitemtheme) [![Total Downloads](https://img.shields.io/packagist/dt/yannisme/purelistitemtheme.svg)](https://packagist.org/packages/yannisme/purelistitemtheme)
-
-A [Flarum](http://flarum.org) extension. 1212
+A [Flarum](http://flarum.org) extension. To simplify the flarum discussion list item, only for exhibiting more information
 
 ## Installation
 
