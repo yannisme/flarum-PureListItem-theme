@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Yannisme\\PureListItemTheme;
+namespace Yannisme\PureListItemTheme;
 
 use Flarum\Extend;
 
