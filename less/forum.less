@@ -1,0 +1,49 @@
+@media @tablet-up{
+.IndexPage{
+	li.item-tags i.icon.icon{display:none}
+	span.username:before{content:'\0040'}
+	.DiscussionListItem-title{margin:auto 0}
+	@media (min-width: 992px){
+		.sideNav,.sideNav>ul{max-width: 157px;}
+	}
+}
+.IndexPage,.UserPage .sideNavContainer{
+.Badge{--size:47px;border-radius:unset}
+h3.DiscussionListItem-title{font-size:18px;white-space:nowrap;max-width: 70%;}
+.DiscussionListItem{margin:auto 0!important;position:relative;margin-right:-15px;padding-right:25px;padding-left:15px;border-radius:unset;transition:background .2s;background:@body-bg;border-bottom:1px solid @control-bg;transition:background .3s}
+.DiscussionListItem.DiscussionListItem--sticky:nth-child(n){border-bottom: 2px double #722c29;}
+.DiscussionListItem-main{padding-left:5px}
+.DiscussionListItem-author .Avatar{display:none}
+.DiscussionListItem-count{margin-top:14px;margin-right:auto;width:auto;color:var(--muted-color);padding-right:5px;display:flex;float:left;font-size:12px;border-radius:5px;background:@body-bg;color:#8d8787;padding:1px 4px;border:1px solid #acaaaa;transform:scale(.89);display:inline-block;line-height:15px;float:left}
+.DiscussionListItem-content{padding-left:10px}
+.DiscussionListItem-info{list-style-type:none;font-size:11px;color:var(--muted-more-color);position:absolute;float:right;display:flex;top:15px;right:0;flex-direction:row-reverse}
+.DiscussionListItem-info .item-excerpt{display:none}
+.DiscussionListItem-info>li{padding-right:5px}
+.DiscussionListItem-info>.item-tags,.UserPage .DiscussionListItem-info>.item-tags{position:static!important;-webkit-mask-image:none}
+.DiscussionListItem-badges .Badge{margin-left: 0;bottom:-24px;right:-74px;opacity:.5;height:7px;overflow: hidden}
+.DiscussionListItem-badges{margin-left:-55px;width:48px;display:inline-flex;justify-content:flex-end;float:right}
+}
+.UserPage .sideNavContainer{
+	.DiscussionListItem-badges .Badge{bottom:-27px;}
+}
+}
+
+@media (min-width: 992px){
+	.Button.SubscriptionMenu-button.SubscriptionMenu-button--false.hasIcon{width:auto!important}
+	.IndexPage .IndexPage-results .DiscussionList-discussions .Button:hover{background-color:unset}
+	.DiscussionListItem-controls{right:-3px;top:7px}
+	.DiscussionListItem,{
+		.Button:active, .Button.active, .open>.Dropdown-toggle.Button{background-color:unset}
+		.Button.active,.Button:active,.open>.Button.Dropdown-toggle{box-shadow:unset}
+	}
+}
+/*.item-discussion-views{color:#8d8787!important;font-size:12px;border-radius:5px;background:@body-bg;color:#8d8787;padding:1px 4px;border:1px solid #acaaaa;transform:scale(.89);line-height:15px;margin-right:5px!important;width:auto!important}*/
+li.item-discussion-views{display:none}
+.EventPost-icon{text-align:end;margin-left:-75px;width:65px;margin-top:5px;font-size:15px}
+.UserPage{
+	.Button:hover,.Button:focus,.Button.focus{background-color:unset}
+	.PostUser-avatar,.PostUser-badges .Badge{display:none}
+	.Post {
+		margin: auto 0;padding: 0;
+	}
+}
