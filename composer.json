@@ -6,6 +6,12 @@
     ],
     "type": "flarum-extension",
     "license": "MIT",
+	"homepage": "https://yannisme.com",
+	"support": {
+     "issues": "https://github.com/yannisme/flarum-PureListItem-theme/issues",
+     "source": "https://github.com/yannisme/flarum-PureListItem-theme",
+     "forum": "https://discuss.flarum.org.cn/d/3833"
+  },
     "require": {
         "flarum/core": "*"
     },
@@ -26,51 +32,10 @@
             "title": "Pure ListItem",
             "category": "theme",
             "icon": {
-                "name": "",
-                "color": "",
-                "backgroundColor": ""
-            }
-        },
-        "flarum-cli": {
-            "modules": {
-                "admin": true,
-                "forum": true,
-                "js": false,
-                "jsCommon": false,
-                "css": true,
-                "locale": false,
-                "gitConf": true,
-                "githubActions": true,
-                "prettier": false,
-                "typescript": false,
-                "bundlewatch": false,
-                "backendTesting": true,
-                "editorConfig": true,
-                "styleci": true
+                "name": "fab fa-yandex-international",
+                "color": "#FFF",
+                "backgroundColor": "#39760f"
             }
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Yannisme\\PureListItemTheme\\Tests\\": "tests/"
-        }
-    },
-    "scripts": {
-        "test": [
-            "@test:unit",
-            "@test:integration"
-        ],
-        "test:unit": "phpunit -c tests/phpunit.unit.xml",
-        "test:integration": "phpunit -c tests/phpunit.integration.xml",
-        "test:setup": "@php tests/integration/setup.php"
-    },
-    "scripts-descriptions": {
-        "test": "Runs all tests.",
-        "test:unit": "Runs all unit tests.",
-        "test:integration": "Runs all integration tests.",
-        "test:setup": "Sets up a database for use with integration tests. Execute this only once."
-    },
-    "require-dev": {
-        "flarum/testing": "^1.0.0"
     }
 }
