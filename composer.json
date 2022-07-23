@@ -50,8 +50,6 @@
             }
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "autoload-dev": {
         "psr-4": {
             "Yannisme\\PureListItemTheme\\Tests\\": "tests/"
