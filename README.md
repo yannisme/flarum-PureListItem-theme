@@ -22,5 +22,5 @@ php flarum cache:clear
 ## Links
 
 - [Packagist](https://packagist.org/packages/yannisme/purelistitemtheme)
-- [GitHub](https://github.com/yannisme/purelistitemtheme)
+- [GitHub](https://github.com/yannisme/flarum-PureListItem-theme/)
 - [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
